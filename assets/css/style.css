@@ -1,0 +1,79 @@
+/*-----------------
+Fonts
+-------------------*/
+@font-face {
+  font-family: "Vazir";
+  src: url(../webfonts/Vazir-Regular.ttf);
+}
+body {
+  font-family: "Vazir" !important;
+}
+.home-img {
+  background-image: url(../img/back.png);
+}
+.text-crate {
+  margin-right: 80px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.hhhh {
+  width: 280px !important;
+  text-align: center;
+}
+.search-box {
+  width: fit-content;
+}
+.search-results {
+  width: 280px;
+  /* min-height: 150px; */
+  position: absolute;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 0;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid #d9d7d4;
+  text-align: center;
+  max-height: 250px;
+  overflow: auto;
+}
+.result-item {
+  padding: 10px 5px;
+  max-width: 400px;
+}
+
+.result-item:hover {
+  background: #f2f2f2;
+  cursor: pointer;
+}
+
+.result-item span,
+.result-item a {
+  display: inline-block;
+}
+.result-item span.loc-type {
+  background: #149999;
+  color: #fff;
+  padding: 0px 7px 2px 7px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.result-item span.loc-title {
+  font-size: 15px;
+}
+
+span.loc-type {
+  margin-left: 13px;
+}
+
+span.loc-title {
+  color: rgb(47, 47, 47);
+  margin-right: 10px;
+}
+
+.search-results::-webkit-scrollbar {
+  display: none;
+}
